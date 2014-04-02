@@ -11,7 +11,7 @@ import os
 
 # 遍历当前目录，对所有图片大小为750*的图片，生成600*的图片
 newdir = 'img_shouji'
-for img in glob.glob('*.png'):
+for img in glob.glob('*.jpg'):
 	print img
 	im = Image.open(img)
 	#if im.size[0] < 750:
